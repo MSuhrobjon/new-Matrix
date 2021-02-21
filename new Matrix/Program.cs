@@ -14,6 +14,7 @@ namespace matrix
                 int t = rand.Next(10);
                 if (t <= 2)
                     return (char)('A' + rand.Next(10));
+
                 else if (t <= 4)
                     return (char)('a' + rand.Next(27));
                 else if (t <= 6)
